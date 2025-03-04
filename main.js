@@ -36,16 +36,24 @@ const seconds=now.getSeconds();
 const timeString = `${hour}:${minutes}:${seconds}`;
 document.getElementById('box1-s').innerText = ` at ${timeString}`;
 const task=document.getElementById('task').innerText;
-ConvertedTask=parseFloat(task);
+const ConvertedTask=parseFloat(task);
 console.log(typeof ConvertedTask);
 if(task>1){
-   const sum=ConvertedTask-1;
-   document.getElementById('task').innerText=sum;
+   const subtracton=ConvertedTask-1;
+   document.getElementById('task').innerText=subtracton;
 
 }
 else{
-    alert("congress you have completed all task")
+    alert("Congress you have completed all task")
 }
+
+const done=document.getElementById('done').innerText;
+converteddone=parseFloat(done);
+if (converteddone>1){
+sum=converteddone+1;
+document.getElementById('done').innerText=sum;
+}
+
 
 
 });
@@ -65,17 +73,23 @@ const seconds=now.getSeconds();
 const timeString = `${hour}:${minutes}:${seconds}`;
 document.getElementById('box2-s').innerText = ` at ${timeString}`;
 const task=document.getElementById('task').innerText;
-ConvertedTask=parseFloat(task);
+const ConvertedTask=parseFloat(task);
 console.log(typeof ConvertedTask);
 if(task>1){
-   const sum=ConvertedTask-1;
-   document.getElementById('task').innerText=sum;
+   const subtracton=ConvertedTask-1;
+   document.getElementById('task').innerText=subtracton;
 
 }
 else{
-  alert("congress you have completed all task")
+  alert("Congress you have completed all task")
 }
 
+const done=document.getElementById('done').innerText;
+converteddone=parseFloat(done);
+if (converteddone>1){
+sum=converteddone+1;
+document.getElementById('done').innerText=sum;
+}
 
 
 })
@@ -95,15 +109,21 @@ const timeString = `${hour}:${minutes}:${seconds}`;
 document.getElementById('box3-s').innerText = ` at ${timeString}`;
 
 const task=document.getElementById('task').innerText;
-ConvertedTask=parseFloat(task);
+const ConvertedTask=parseFloat(task);
 console.log(typeof ConvertedTask);
 if(task>1){
-   const sum=ConvertedTask-1;
-   document.getElementById('task').innerText=sum;
+   const subtracton=ConvertedTask-1;
+   document.getElementById('task').innerText=subtracton;
 
 }
 else{
-     alert("congress you have completed all task")
+     alert("Congress you have completed all task")
+}
+const done=document.getElementById('done').innerText;
+converteddone=parseFloat(done);
+if (converteddone>1){
+sum=converteddone+1;
+document.getElementById('done').innerText=sum;
 }
 
 
@@ -123,15 +143,22 @@ const seconds=now.getSeconds();
 const timeString = `${hour}:${minutes}:${seconds}`;
 document.getElementById('box4-s').innerText = ` at ${timeString}`;
 const task=document.getElementById('task').innerText;
-ConvertedTask=parseFloat(task);
+const ConvertedTask=parseFloat(task);
 console.log(typeof ConvertedTask);
 if(task>1){
-   const sum=ConvertedTask-1;
-   document.getElementById('task').innerText=sum;
+   const subtracton=ConvertedTask-1;
+   document.getElementById('task').innerText=subtracton;
 
 }
 else{
-   alert("congress you have completed all task")
+   alert("Congress you have completed all task")
+}
+
+const done=document.getElementById('done').innerText;
+converteddone=parseFloat(done);
+if (converteddone>1){
+sum=converteddone+1;
+document.getElementById('done').innerText=sum;
 }
 
 
@@ -151,15 +178,21 @@ const seconds=now.getSeconds();
 const timeString = `${hour}:${minutes}:${seconds}`;
 document.getElementById('box5-s').innerText = ` at ${timeString}`;
 const task=document.getElementById('task').innerText;
-ConvertedTask=parseFloat(task);
+const  ConvertedTask=parseFloat(task);
 console.log(typeof ConvertedTask);
 if(task>1){
-   const sum=ConvertedTask-1;
-   document.getElementById('task').innerText=sum;
+   const subtracton=ConvertedTask-1;
+   document.getElementById('task').innerText=subtracton;
 
 }
 else{
-    alert("congress you have completed all task")
+    alert("Congress you have completed all task")
+}
+const done=document.getElementById('done').innerText;
+converteddone=parseFloat(done);
+if (converteddone>1){
+sum=converteddone+1;
+document.getElementById('done').innerText=sum;
 }
 
 
@@ -180,17 +213,23 @@ const timeString = `${hour}:${minutes}:${seconds}`;
 document.getElementById('box6-s').innerText = ` at ${timeString}`;
 
 const task=document.getElementById('task').innerText;
-ConvertedTask=parseFloat(task);
+const ConvertedTask=parseFloat(task);
 console.log(typeof ConvertedTask);
 if(task>1){
-   const sum=ConvertedTask-1;
-   document.getElementById('task').innerText=sum;
+   const subtracton=ConvertedTask-1;
+   document.getElementById('task').innerText=subtracton;
 
 }
 else{
-    alert("congress you have completed all task")
+    alert("Congress you have completed all task")
 }
 
+const done=document.getElementById('done').innerText;
+converteddone=parseFloat(done);
+if (converteddone>1){
+sum=converteddone+1;
+document.getElementById('done').innerText=sum;
+}
 
 
 })
