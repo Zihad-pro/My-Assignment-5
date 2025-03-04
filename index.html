@@ -44,7 +44,7 @@
         <div class="flex gap-5 items-center">
           <div class="flex p-2 bg-Primary1 rounded-3xl boder-none">
             <img src="./image/checkbox.png" alt="" />
-            <h1 class="font-bold text-2xl px-2">23</h1>
+            <h1 id="done" class="font-bold text-2xl px-2">23</h1>
           </div>
 
           <img
@@ -72,12 +72,13 @@
               <p class="text-lg">
                 Task Assigned
                 <br />
-                <span class="font-bold text-2xl">05</span>
+                <span id="task" class="font-bold text-2xl">06</span>
               </p>
             </div>
           </div>
           <!-- item 2 -->
-          <div id="item-2"
+          <div
+            id="item-2"
             class="flex items-center gap-5 p-5 bg-Primary1 rounded-lg w-6/12 bg-gradient-to-r from-Primary2 to-Primary1 cursor-pointer"
           >
             <div>
@@ -94,10 +95,7 @@
               <img src="./image/calender.png " />
             </div>
             <div class="my-auto">
-              <p>
-                wed ,<br />
-                <span class="font-bold">jul 28 2025</span>
-              </p>
+              <p id="Dynamic-time"></p>
             </div>
           </div>
         </div>
@@ -131,6 +129,7 @@
                 <!-- btn -->
                 <div>
                   <button
+                    id="btn1"
                     class="border-1 px-4 py-3 rounded-lg bg-Primary2 text-white cursor-pointer"
                   >
                     Completed
@@ -164,6 +163,7 @@
                 <!-- btn -->
                 <div>
                   <button
+                    id="btn2"
                     class="border-1 px-4 py-3 rounded-lg bg-Primary2 text-white cursor-pointer"
                   >
                     Completed
@@ -197,6 +197,7 @@
                 <!-- btn -->
                 <div>
                   <button
+                    id="btn3"
                     class="border-1 px-4 py-3 rounded-lg bg-Primary2 text-white cursor-pointer"
                   >
                     Completed
@@ -230,6 +231,7 @@
                 <!-- btn -->
                 <div>
                   <button
+                    id="btn4"
                     class="border-1 px-4 py-3 rounded-lg bg-Primary2 text-white cursor-pointer"
                   >
                     Completed
@@ -263,6 +265,7 @@
                 <!-- btn -->
                 <div>
                   <button
+                    id="btn5"
                     class="border-1 px-4 py-3 rounded-lg bg-Primary2 text-white cursor-pointer"
                   >
                     Completed
@@ -298,6 +301,7 @@
                 <!-- btn -->
                 <div>
                   <button
+                    id="btn6"
                     class="border-1 px-4 py-3 rounded-lg bg-Primary2 text-white cursor-pointer"
                   >
                     Completed
@@ -317,12 +321,34 @@
             <p>Active log</p>
           </div>
           <div class="flex justify-center">
-            <button
+            <button id="clear-history"
               class="border-1 px-3 py-2 rounded-lg bg-Primary2 text-white cursor-pointer"
             >
               Clear History
             </button>
           </div>
+        </div>
+        <div id="add-btn">
+         <div id="btn-box1" class="hidden  bg-Primary1 m-5 rounded-lg">
+          <p  class="p-3">You have completed task add Fix Mobile button issue <span id="box1-s"></span></p>
+         </div>
+         <div id="btn-box2" class="hidden  bg-Primary1 m-5 rounded-lg">
+          <p id="box1-p" class="p-3">You have completed task add Add Dark Mode<span id="box2-s"></span> </p>
+         </div>
+         <div id="btn-box3" class="hidden  bg-Primary1 m-5 rounded-lg">
+          <p id="box1-p" class="p-3">You have completed task add ptimize Home page<span id="box3-s"></span></p>
+         </div>
+         <div id="btn-box4" class="hidden  bg-Primary1 m-5 rounded-lg">
+          <p id="box1-p" class="p-3">You have completed task add Add new emoji 🤲 <span id="box4-s"></span></p>
+         </div>
+         <div id="btn-box5" class="hidden  bg-Primary1 m-5 rounded-lg">
+          <p id="box1-p" class="p-3">You have completed task add Integrate OpenAI API <span id="box5-s"></span></p>
+         </div>
+         <div id="btn-box6" class="hidden  bg-Primary1 m-5 rounded-lg">
+          <p id="box1-p" class="p-3">You have completed task add Improve Job searchingissue<span id="box6-s"></span> </p>
+         </div>
+         
+
         </div>
       </section>
     </main>
