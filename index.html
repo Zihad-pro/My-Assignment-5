@@ -33,7 +33,7 @@
     </style>
   </head>
 
-  <body class="bg-Primary1 font-poppins p-3">
+  <body id="bodyHead" class="bg-Primary1 font-poppins p-3">
     <!-- nav section -->
     <header class="container mx-auto p-3 bg-white rounded-2xl">
       <nav class="flex justify-between items-center px-5">
@@ -48,18 +48,19 @@
           </div>
 
           <img
-            class="size-12 rounded-full bg-Primary1 p-2"
+            id="bg-change"
+            class="size-12 rounded-full bg-Primary1 p-2 cursor-pointer"
             src="./image/theme-btn.png"
             alt=""
           />
         </div>
       </nav>
     </header>
-    <main class="h-200 m-5 container mx-auto flex gap-5">
+    <main class="m-5 container mx-auto flex gap-5">
       <!-- box-left -->
-      <div class="bg-white h-200 w-3/4 rounded-xl container mx-auto">
+      <div class="bg-white w-3/4 rounded-xl container mx-auto pb-10">
         <!-- item head -->
-        <div class="flex p-5 gap-7 justify-around">
+        <div class="flex p-5 gap-7 justify-around border-b-1 border-dashed">
           <!-- item-1 -->
           <div
             class="flex items-center p-5 bg-Primary1 gap-5 rounded-lg w-3/12"
@@ -76,8 +77,8 @@
             </div>
           </div>
           <!-- item 2 -->
-          <div
-            class="flex items-center gap-5 p-5 bg-Primary1 rounded-lg w-6/12 bg-gradient-to-r from-Primary2 to-Primary1"
+          <div id="item-2"
+            class="flex items-center gap-5 p-5 bg-Primary1 rounded-lg w-6/12 bg-gradient-to-r from-Primary2 to-Primary1 cursor-pointer"
           >
             <div>
               <img src="./image/board.png" alt="" />
@@ -86,21 +87,244 @@
           </div>
           <!-- item 3 -->
 
-          <div class="flex items-center p-5 bg-Primary1 rounded-lg w-3/12">
+          <div
+            class="flex items-center p-5 bg-Primary1 rounded-lg w-3/12 gap-5"
+          >
             <div>
               <img src="./image/calender.png " />
             </div>
-            <div>
-              <p class="text-lg">
-                DATE AND TIME
-                <br />
+            <div class="my-auto">
+              <p>
+                wed ,<br />
+                <span class="font-bold">jul 28 2025</span>
               </p>
             </div>
           </div>
         </div>
+
+        <section class="mt-8 mx-4 grid grid-cols-2 lg:grid-cols-3 gap-7">
+          <!-- box head -->
+          <div class="bg-Primary1 rounded-lg">
+            <!-- box 1 -->
+
+            <div class="h-70">
+              <!-- text -->
+              <div class="h-50 m-5 pt-4 border-b-1 border-dashed">
+                <p class="w-23 rounded-md p-2 bg-white bo">ShopEase</p>
+                <h1 class="font-semibold my-2 text-xl">
+                  Fix Mobile Button Issue
+                </h1>
+
+                <p class="bg-white p-3 rounded-lg">
+                  Debug using Chrome DevTools, check for overlappi ...
+                </p>
+              </div>
+              <!-- btn section-->
+              <div class="flex justify-between mx-5">
+                <!-- time -->
+                <div>
+                  <p>
+                    Dedline <br />
+                    <span class="font-semibold">21 March 2025</span>
+                  </p>
+                </div>
+                <!-- btn -->
+                <div>
+                  <button
+                    class="border-1 px-4 py-3 rounded-lg bg-Primary2 text-white cursor-pointer"
+                  >
+                    Completed
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="bg-Primary1 rounded-lg">
+            <!-- box 2-->
+
+            <div class="h-70">
+              <!-- text -->
+              <div class="h-50 border-b-1 border-dashed m-5 pt-4">
+                <p class="w-25 rounded-md p-2 bg-white">CloudSync</p>
+                <h1 class="font-semibold my-2 text-xl">Add Dark Mode</h1>
+
+                <p class="bg-white p-3 rounded-lg">
+                  Store the user's preference in localStorage,effect...
+                </p>
+              </div>
+              <!-- btn section-->
+              <div class="flex justify-between mx-5">
+                <!-- time -->
+                <div>
+                  <p>
+                    Dedline <br />
+                    <span class="font-semibold">21 March 2025</span>
+                  </p>
+                </div>
+                <!-- btn -->
+                <div>
+                  <button
+                    class="border-1 px-4 py-3 rounded-lg bg-Primary2 text-white cursor-pointer"
+                  >
+                    Completed
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="bg-Primary1 rounded-lg">
+            <!-- box 3 -->
+
+            <div class="h-70">
+              <!-- text -->
+              <div class="h-50 border-b-1 border-dashed m-5 pt-4">
+                <p class="w-23 rounded-md p-2 bg-white bo">SwiftPay</p>
+                <h1 class="font-semibold my-2 text-xl">Optimize Home page</h1>
+
+                <p class="bg-white p-3 rounded-lg">
+                  Debug using Chrome DevTools, check for overlappi ...
+                </p>
+              </div>
+              <!-- btn section-->
+              <div class="flex justify-between mx-5">
+                <!-- time -->
+                <div>
+                  <p>
+                    Dedline <br />
+                    <span class="font-semibold">21 March 2025</span>
+                  </p>
+                </div>
+                <!-- btn -->
+                <div>
+                  <button
+                    class="border-1 px-4 py-3 rounded-lg bg-Primary2 text-white cursor-pointer"
+                  >
+                    Completed
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="bg-Primary1 rounded-lg">
+            <!-- box 4 -->
+
+            <div class="h-70">
+              <!-- text -->
+              <div class="h-50 border-b-1 border-dashed m-5 pt-4">
+                <p class="w-23 rounded-md p-2 bg-white">Meta</p>
+                <h1 class="font-semibold my-2 text-xl">Add new emoji 🤲</h1>
+
+                <p class="bg-white p-3 rounded-lg">
+                  Debug using Chrome DevTools, check for overlappi ...
+                </p>
+              </div>
+              <!-- btn section-->
+              <div class="flex justify-between mx-5">
+                <!-- time -->
+                <div>
+                  <p>
+                    Dedline <br />
+                    <span class="font-semibold">21 March 2025</span>
+                  </p>
+                </div>
+                <!-- btn -->
+                <div>
+                  <button
+                    class="border-1 px-4 py-3 rounded-lg bg-Primary2 text-white cursor-pointer"
+                  >
+                    Completed
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="bg-Primary1 rounded-lg">
+            <!-- box 5 -->
+
+            <div class="h-70">
+              <!-- text -->
+              <div class="h-50 border-b-1 border-dashed m-5 pt-4">
+                <p class="w-28 rounded-md p-2 bg-white">Google LLC</p>
+                <h1 class="font-semibold my-2 text-xl">Integrate OpenAI API</h1>
+
+                <p class="bg-white p-3 rounded-lg">
+                  Debug using Chrome DevTools, check for overlappi ...
+                </p>
+              </div>
+              <!-- btn section-->
+              <div class="flex justify-between mx-5">
+                <!-- time -->
+                <div>
+                  <p>
+                    Dedline <br />
+                    <span class="font-semibold">21 March 2025</span>
+                  </p>
+                </div>
+                <!-- btn -->
+                <div>
+                  <button
+                    class="border-1 px-4 py-3 rounded-lg bg-Primary2 text-white cursor-pointer"
+                  >
+                    Completed
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="bg-Primary1 rounded-lg">
+            <!-- box 6 -->
+
+            <div class="h-70">
+              <!-- text -->
+              <div class="h-50 border-b-1 border-dashed m-5 pt-4">
+                <p class="w-25 rounded-md p-2 bg-white bo">Glassdoar</p>
+                <h1 class="font-semibold my-2 text-xl">
+                  Improve Job searching
+                </h1>
+
+                <p class="bg-white p-3 rounded-lg">
+                  Debug using Chrome DevTools, check for overlappi ...
+                </p>
+              </div>
+              <!-- btn section-->
+              <div class="flex justify-between mx-5">
+                <!-- time -->
+                <div>
+                  <p>
+                    Dedline <br />
+                    <span class="font-semibold">21 March 2025</span>
+                  </p>
+                </div>
+                <!-- btn -->
+                <div>
+                  <button
+                    class="border-1 px-4 py-3 rounded-lg bg-Primary2 text-white cursor-pointer"
+                  >
+                    Completed
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
       </div>
       <!-- box-right -->
-      <div class="w-1/4 bg-white rounded-xl"></div>
+      <section class="w-1/4 bg-white rounded-xl">
+        <!-- title -->
+        <div class="mt-2 space-y-3 border-b-1 border-dashed p-5">
+          <div class="flex justify-center">
+            <img src="./image/activity.png" alt="" />
+            <p>Active log</p>
+          </div>
+          <div class="flex justify-center">
+            <button
+              class="border-1 px-3 py-2 rounded-lg bg-Primary2 text-white cursor-pointer"
+            >
+              Clear History
+            </button>
+          </div>
+        </div>
+      </section>
     </main>
 
     <script src="main.js"></script>
